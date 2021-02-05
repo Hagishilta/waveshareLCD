@@ -59,9 +59,9 @@ void LCD_2IN4_test(void)
 
     Paint_DrawNum(5, 160, 123456789, &Font20, GREEN, IMAGE_BACKGROUND);
     Paint_DrawString_CN(5,200, "Î¢Ñ©µç×Ó",  &Font24CN,IMAGE_BACKGROUND,BLUE);
-    Paint_DrawString_CN(5,240, "¿", &Font24CN, IMAGE_BACKGROUND, BLUE);
-    Paint_DrawString_EN(5,260, "hihi", &Font12, IMAGE_BACKGROUND, BLUE); 
-    Paint_DrawString_EN(5,280, "¿¿", &Font12, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawString_CN(5,240, "­·", &Font24CN, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawString_EN(5,260, "hihi", &Font24CN, IMAGE_BACKGROUND, BLUE); 
+    Paint_DrawString_EN(5,280, "¿¿", &Font24CN, IMAGE_BACKGROUND, BLUE);
     // /*3.Refresh the picture in RAM to LCD*/
     LCD_2IN4_Display((UBYTE *)BlackImage);
 	DEV_Delay_ms(3000);
