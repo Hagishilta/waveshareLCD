@@ -76,6 +76,10 @@ void LCD_2IN4_test(void)
     GUI_ReadBmp("./pic/test1.bmp");    
     LCD_2IN4_Display((UBYTE *)BlackImage);
     DEV_Delay_ms(3000);
+
+    GUI_ReadBmp("./pic/test3.bmp");    
+    LCD_2IN4_Display((UBYTE *)BlackImage);
+    DEV_Delay_ms(3000);
 	
 
 	
