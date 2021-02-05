@@ -57,12 +57,12 @@ void LCD_2IN4_test(void)
     Paint_DrawString_EN(5, 70, "hello world", &Font16, WHITE, BLACK);
     Paint_DrawString_EN(5, 90, "waveshare", &Font20, RED, IMAGE_BACKGROUND);
 
-    Paint_DrawNum(5, 160, 123456789, &Font20, GREEN, IMAGE_BACKGROUND);
-    Paint_DrawString_CN(5,200, "微雪电子",  &Font24CN,IMAGE_BACKGROUND,BLUE);
-    Paint_DrawString_CN(5,240, "电电电电", &Font12CN, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawNum(5, 120, 123456789, &Font20, GREEN, IMAGE_BACKGROUND);
+    Paint_DrawString_CN(5,160, "微雪电子",  &Font24CN,IMAGE_BACKGROUND,BLUE);
+    Paint_DrawString_CN(5,200, "风风风风", &Font12CN, IMAGE_BACKGROUND, BLUE);
     // Paint_DrawString_EN(5,260, "hihi", &Font24CN, IMAGE_BACKGROUND, BLUE); 
-    Paint_DrawString_CN(5,260, "微微微微", &Font12CN, IMAGE_BACKGROUND, BLUE);
-    Paint_DrawString_CN(5,280, "微雪电子",  &Font12CN,IMAGE_BACKGROUND,BLUE);
+    Paint_DrawString_CN(5,240, "米饭米饭", &Font12CN, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawString_CN(5,300, "微雪电子",  &Font12CN,IMAGE_BACKGROUND,BLUE);
     // /*3.Refresh the picture in RAM to LCD*/
     LCD_2IN4_Display((UBYTE *)BlackImage);
 	DEV_Delay_ms(3000);

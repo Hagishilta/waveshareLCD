@@ -62,10 +62,10 @@ typedef struct _tFont
 
 
 //GB2312
-typedef struct                                          // 汉字字模数据结构
+typedef struct                                          // 汉字字模数据结构 (Chinese Character Model Data Structure)
 {
-  unsigned char index[2];                               // 汉字内码索引
-  const char matrix[MAX_HEIGHT_FONT*MAX_WIDTH_FONT/8];  // 点阵码数据
+  unsigned char index[2];                               // 汉字内码索引 (Chinese internal code index)
+  const char matrix[MAX_HEIGHT_FONT*MAX_WIDTH_FONT/8];  // 点阵码数据 (Dot matrix code data)
 }CH_CN;
 
 
