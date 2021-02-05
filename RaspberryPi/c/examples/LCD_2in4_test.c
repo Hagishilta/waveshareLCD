@@ -59,10 +59,10 @@ void LCD_2IN4_test(void)
 
     Paint_DrawNum(5, 120, 123456789, &Font20, GREEN, IMAGE_BACKGROUND);
     Paint_DrawString_CN(5,160, "微雪电子",  &Font24CN,IMAGE_BACKGROUND,BLUE);
-    Paint_DrawString_CN(5,200, "风风风风", &Font24CN, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawString_CN(5,200, "的的的的", &Font24CN, IMAGE_BACKGROUND, BLUE);
     // Paint_DrawString_EN(5,260, "hihi", &Font24CN, IMAGE_BACKGROUND, BLUE); 
-    Paint_DrawString_CN(5,240, "米饭米饭", &Font24CN, IMAGE_BACKGROUND, BLUE);
-    Paint_DrawString_CN(5,300, "微雪电子",  &Font24CN,IMAGE_BACKGROUND,BLUE);
+    Paint_DrawString_CN(5,240, "体下对此", &Font24CN, IMAGE_BACKGROUND, BLUE);
+    Paint_DrawString_CN(5,280, "微雪电子",  &Font24CN,IMAGE_BACKGROUND,BLUE);
     // /*3.Refresh the picture in RAM to LCD*/
     LCD_2IN4_Display((UBYTE *)BlackImage);
 	DEV_Delay_ms(3000);
